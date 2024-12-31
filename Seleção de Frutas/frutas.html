@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Imagens de Frutas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha uma fruta para ver a imagem</h1>
+        <select id="fruit-select">
+            <option value="">Selecione uma fruta</option>
+        </select>
+        <button id="show-image-btn">Exibir Imagem</button>
+        <div id="image-container">
+            <p id="image-error" class="hidden">Erro ao carregar a imagem.</p>
+            <img id="fruit-image" src="" alt="Fruta" class="hidden">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
